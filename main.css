@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Iceland); /* This is a url to import the font style iceland*/
+
+
+nav{ /* This is the selector of navigation,
+  the font size for all content in the element nav is 30 pixel big. 
+  The background image url maxresdefault.jpg sets 
+  the whole nav element background to that image mention before. 
+  all content in the element nav margin top has -10 pixel less space. Finally, 
+  the background image is set to cover the whole 
+  nav element with the background image set up.*/
+  
+  
+font-size:30px;
+background-image:url(maxresdefault.jpg);
+margin-top:-10;
+background-size:cover;
+}
+
+
+h1{ /* This is the selector for heading 1
+       the color for all the content in the h1 element
+       is light cyan and the background color is limegreen. 
+        The border around the h1 element is 4 pixel thick
+      and solid with the border's color being lightcyan.
+      All content in the h1 element has both a font size of
+       35 pixel and font style is iceland*/
+
+  background-color:limegreen;
+  color:lightcyan;
+  border:4px solid lightcyan;
+  font-family:'Iceland';
+  font-size:35px;
+}
+
+
+div{ 
+  /*This is the selector for division
+  All content in the div element position 
+  is align at the center.*/
+  
+  text-align:center;}
+
+a{ /* This is the selector for the anchor,
+  Display inline-block for all content in element a which consist of accessing
+    to every side such as padding, margin, width or height. 
+      all content in the a element is 30 pixel big or size.
+       The color for all the content in the a element
+       is light cyan and the background color is limegreen. Then finally,
+        the border around the a element is 4 pixel thick
+      and solid with the border's color being lightcyan.*/
+
+display:inline-block;
+ background-color:limegreen;
+ border:4px solid lightcyan;
+ color:lightcyan;
+ font-size:30px;
+
+}
+
+
+.font{/* This is the selector for the class = font,
+  Display inline-block for all content in element class=font which consist of giving all pixel
+    to every side such as padding, margin, width or height. 
+      all content in the class=font element is 22 pixel big or size.
+       the color for all the content in the class=font element
+       is light cyan and the background color is limegreen. The font style for every content 
+       in the class=font element is iceland. Then finally,
+        the border around the a element is 4 pixel thick
+      and solid with the border's color being lightcyan.*/
+
+  font-size:22px;
+  color:lightcyan;
+  font-family:'Iceland';
+border: 4px solid lightcyan;
+display:inline-block;
+background-color:limegreen;
+}
+
+
+body{
+  /* this is the selector for the body element and the back color 
+  of this rgb(79, 86, 34) its esssentialy mute green*/
+
+    background-color:rgb(79, 86, 34);
+}
+
+
+p{ /* this is the selector of the paragraph,
+  the margin is 625 pixel right */
+  
+margin-right:625px;
+}
+
+span{ /* This is the selector of span
+  The content in the span element is underline
+   and the background color is green*/
+
+  text-decoration:underline;
+  background-color:green;
+}
+
+video{  /*This is the selector of video
+  The margin top is -320 pixel giving less space for the element video while
+  the margin left is 1050 pixel giving 1050 pixel space for video. Then finally, 
+  there is a border that is 4 pixel thick that is solid and the color of the border is lightcyan. */
+
+ margin-top: -320px;
+ margin-left:1200px;
+   border:4px solid lightcyan;
+}
+
+h2{ /* This is the selector for heading 2,
+   The margin top is 20 pixel, giving space by 20 pixel.
+   The color for all the content in the h2 element
+       is light cyan and the background color is limegreen. Then
+        the border around the h2 element is 4 pixel thick
+      and solid with the border's color being lightcyan.
+       Display inline-block for all content in element h2 which consist of giving all pixel
+    to every side such as padding, margin, width or height. Then finally, the font size for the element
+    h2 is 30 pixel big and the font style for the element h3 is iceland.*/
+
+   background-color:limegreen;
+  color:lightcyan;
+  display:inline-block;
+   border:4px solid lightcyan;
+   margin-top:20px;
+   font-family:'Iceland';
+   font-size:30px;
+}
+
+
+img{ /*This is the selector of image,
+  the margin top is -900 pixel meaning giving it less space.
+  The margin left is 280 pixel meaning giving spcae by 280 pixel.
+  Then finally, the width of the image to be 80% wide.*/
+
+  margin-top: -900px;
+  width: 80%;
+  margin-left:280px;
+}

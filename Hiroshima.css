@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Iceland); /* This is a url to import the font style iceland*/
+
+
+html{ /*This is the selector for hypertext markup language, 
+    first, the background color for every content in the html are lightcoral. 
+    Then secondly, the font style for every content in the html element is iceland.*/ 
+    
+ background-color: lightcoral;
+ font-family:'Iceland';
+}
+
+
+
+
+h1{  /* This is the selector for heading 1,
+     First, the text decoration for every content in 
+     the h1 element has a underline and the text position 
+     of the h1 element is at the center of the page.
+      Secondly, the color for all the content in the h1 element
+       is light cyan and the background color is limegreen. Then finally,
+        the border around the h1 element is 4 pixel thick
+      and solid with the border's color being lightcyan.*/
+
+    text-decoration:underline;
+    color:lightcyan;
+    background-color:limegreen;
+    text-align:center;
+    border: 4px solid lightcyan;
+}
+
+nav{ /*this is the selector of navigation, 
+    all content in the nav element 
+    is 22 pixel big or size*/
+
+ font-size:22px;
+
+}
+
+a{ /* This is the selector of anchor,
+     
+      First, the color for all the content in the a element
+       is light cyan and the background color is limegreen. Then finally,
+        the border around the a element is 4 pixel thick
+      and solid with the border's color being lightcyan.*/
+
+    color:lightcyan;
+    border: 4px solid lightcyan;
+    background-color:limegreen;
+}
+
+h2{ /*this is the selector for heading 2, 
+    the position for all content in the element 
+    h2 is at the center of the page.*/
+
+    text-align:center;
+}
+
+div{
+    /* This is the selector for division,
+    Display inline-block for all content in element div which consist of accessing
+    to every side such as padding, margin, width or height. 
+    font size for all content in the element div is 25 pixel big and 
+    170 pixels of space from the left for every content in the div element. 
+     The color for all the content in the div element
+       is light cyan and the background color is limegreen. Then
+        the border around the div element is 4 pixel thick
+      and solid with the border's color being lightcyan.*/
+    
+    display:inline-block; 
+    font-size:25px;
+    background-color:limegreen;
+    color:lightcyan;
+    border: 4px solid lightcyan;
+    margin-left:170px;
+}
+
+
+
+img{ /*This is the selector of image, 
+    the width of the image is 40%,
+     30 pixel of space at the left, there is a border that is 4 pixel 
+     thick that is solid and the color of the border is lightcyan.
+     then the position of the image is fix so it stay at the screen no matter what.*/
+
+width:40%;
+margin-left:30px;
+border:4px solid lightcyan;
+position: fixed;
+}
